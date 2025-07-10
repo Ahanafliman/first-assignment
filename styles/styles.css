@@ -12,8 +12,12 @@
   font-style: normal;
 }
 
+.bg{
+    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-repeat: none;
+}
 
-.nav title {
+.title {
     color: #4E47FF;
     font-size: 34px;
     font-weight: 900;
@@ -25,7 +29,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 150px;
+    margin: 50px 50px 150px;
 }
 
 .btn1 {
@@ -35,4 +39,12 @@ nav{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+}
+
+.banner {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    padding: 250px 250px 260px 260px;
+
 }
